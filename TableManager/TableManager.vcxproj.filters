@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="TestTable.h">
+      <Filter>Table\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="MixedKeyTable.hpp">
+      <Filter>Table\TreeNode</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleKeyTable.hpp">
+      <Filter>Table\TreeNode</Filter>
+    </ClInclude>
+    <ClInclude Include="TableNode.h">
+      <Filter>Table</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Table">
+      <UniqueIdentifier>{4136b307-23f9-46fc-9d46-933b2cade2c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Table\TreeNode">
+      <UniqueIdentifier>{4e95f04e-ad61-4e4d-9ff2-8b3cf3fd94f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Table\Impl">
+      <UniqueIdentifier>{5ceb1533-b602-485d-857f-7ad108e0ddeb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
